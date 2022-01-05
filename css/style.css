@@ -1824,7 +1824,7 @@ h1, h2, h3, h4, h5,
   .owl-prev img, .owl-next img{width: 55px;}
 
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .owl-prev{left: 0;}
     .owl-next{right: 0;}
   }
