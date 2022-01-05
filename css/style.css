@@ -1817,8 +1817,15 @@ h1, h2, h3, h4, h5,
 
 .person-pic-39219 img {
   border-radius: 50%;
-  width: 70px; }
-  .owl-prev{left: 0;top: 50%;background: transparent !important;}
-  .owl-next{right: 0;top: 50%;background: transparent !important;}
+  width: 70px !important; }
+  .owl-prev{left: -80px;top: 50%;background: transparent !important;}
+  .owl-next{right: -80px;top: 50%;background: transparent !important;}
 
   .owl-prev img, .owl-next img{width: 55px;}
+
+
+  @media (min-width: 768px) {
+    .owl-prev{left: 0;}
+    .owl-next{right: 0;}
+  }
+
