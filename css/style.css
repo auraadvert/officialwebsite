@@ -1818,3 +1818,7 @@ h1, h2, h3, h4, h5,
 .person-pic-39219 img {
   border-radius: 50%;
   width: 70px; }
+  .owl-prev{left: 0;top: 50%;background: transparent !important;}
+  .owl-next{right: 0;top: 50%;background: transparent !important;}
+
+  .owl-prev img, .owl-next img{width: 55px;}
